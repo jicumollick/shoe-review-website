@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
-
-import CustomLink from "../../CustomLink/CustomLink";
+import CustomLink from "../CustomLink/CustomLink";
 
 const Header = () => {
   return (
@@ -9,7 +8,7 @@ const Header = () => {
       <>
         <Navbar
           collapseOnSelect
-          fixed="top"
+          fixed="top-[30px]"
           expand="sm"
           bg="dark"
           variant="dark"
