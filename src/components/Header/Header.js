@@ -1,19 +1,30 @@
 import React from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
 
+import CustomLink from "../../CustomLink/CustomLink";
+
 const Header = () => {
   return (
     <div>
       <>
-        <Navbar bg="dark" variant="dark">
+        <Navbar
+          collapseOnSelect
+          fixed="top"
+          expand="sm"
+          bg="dark"
+          variant="dark"
+        >
           <Container>
-            <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-            <Nav className="ms-auto">
-              <Nav.Link href="#reviews">Reviews</Nav.Link>
-              <Nav.Link href="#dashboard">Dashboard</Nav.Link>
-              <Nav.Link href="#blog">Blog</Nav.Link>
-              <Nav.Link href="#about">About</Nav.Link>
-            </Nav>
+            <Navbar.Toggle aria-controls="resposive-navbar-nav" />
+            <Navbar.Brand href="/">Home</Navbar.Brand>
+            <Navbar.Collapse id="resposive-navbar-nav">
+              <Nav className="ms-auto">
+                <CustomLink to="/reviews">Reviews</CustomLink>
+                <CustomLink to="/dashboard">Dashboard</CustomLink>
+                <CustomLink to="/blogs">Blogs</CustomLink>
+                <CustomLink to="/about">About</CustomLink>
+              </Nav>
+            </Navbar.Collapse>
           </Container>
         </Navbar>
       </>
