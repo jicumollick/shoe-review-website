@@ -1,0 +1,8 @@
+
+/* for nmobile devices  */
+@media only screen and (max-width: 600px) {
+    .card{
+        margin: 20px 0px;
+    }
+
+}

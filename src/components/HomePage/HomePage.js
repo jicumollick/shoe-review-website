@@ -5,16 +5,28 @@ import "./HomePage.css";
 
 const HomePage = () => {
   const [users] = useUsers([]);
+
+  if (users.length > 3) {
+    users.length = 3;
+  }
+
   return (
     <div className="homepage">
       <div className="d-md-flex pt-5 align-items-center">
         <div className="col-md-6 p-3 ">
           <h1 className="fw-bold text-primary">Your Best Shoe</h1>
-          <p>
-            We are suggesting you a very nice shoe that is winning in our
-            regular review battle among the globe.
+          <p
+            style={{
+              fontWeight: "bold",
+              fontSize: "20px",
+              padding: "20px 0px",
+            }}
+          >
+            We are suggesting you a very nice shoe that is winning our regular
+            review battle among the globe. This is the Number 1 Authentic
+            website in the world to show the review of multiple companies shoes.
           </p>
-          <button className="btn btn-success px-4 py-2">Buy Now</button>
+          <button className="btn btn-success px-4 py-2 fw-bold">Buy Now</button>
         </div>
         <div className="col-md-6">
           <img

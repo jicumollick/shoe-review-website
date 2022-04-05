@@ -1,8 +1,10 @@
 import React from "react";
 import { StarIcon } from "@heroicons/react/solid";
+import "./SingleCard.css";
 
 const SingleCard = (props) => {
   const { name, rating, comment, picture } = props.user;
+
   return (
     <div
       className="card "
