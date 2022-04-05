@@ -1,0 +1,43 @@
+[
+    {
+        "id": 1,
+        "name": "Modhu Mia",
+        "rating": 4,
+        "comment": "I have never bought a shoe like this. this is really an amazing shoe to me. thanks",
+        "picture": "https://randomuser.me/api/portraits/thumb/men/5.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Mendela Samanta",
+        "rating": 5,
+        "comment": "Nothing to say other than thank you. I am blessed.",
+        "picture": "https://randomuser.me/api/portraits/thumb/women/25.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Leanne Graham",
+        "rating": 4.5,
+        "comment": "This is One of the best shoe I have ever seen in my life.I am really happy to Nike bangladesh for these kind of gift they are providing in counbtry.",
+        "picture": "https://randomuser.me/api/portraits/thumb/men/32.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Marie Orin",
+        "rating": 4,
+        "comment": "No Matter what is coming next, I am going to buy these shoes again and again.",
+        "picture": "https://randomuser.me/api/portraits/thumb/women/75.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Robin Hud",
+        "rating": 5,
+        "comment": "What should i say? it's kind of magic to have these kind of shoes in these days.",
+        "picture": "https://randomuser.me/api/portraits/thumb/men/7.jpg"
+    },{
+        "id": 6,
+        "name": "Nazifa Sadia",
+        "rating": 4,
+        "comment": "It's a very much big experience to me to have a pair of shes like this. Thank you Nike Bangladesh",
+        "picture": "https://randomuser.me/api/portraits/thumb/women/34.jpg"
+    }
+]
