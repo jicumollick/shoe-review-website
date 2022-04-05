@@ -1,9 +1,9 @@
 import React from "react";
-
+import SingleCard from "../SingleCard/SingleCard";
 const Reviews = () => {
   return (
     <div>
-      <h2>I am review</h2>
+      <SingleCard></SingleCard>
     </div>
   );
 };
