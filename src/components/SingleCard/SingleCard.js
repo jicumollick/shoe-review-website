@@ -2,7 +2,7 @@ import React from "react";
 import { StarIcon } from "@heroicons/react/solid";
 
 const SingleCard = (props) => {
-  const { id, name, rating, comment, picture } = props.user;
+  const { name, rating, comment, picture } = props.user;
   return (
     <div
       className="card "

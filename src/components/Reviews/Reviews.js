@@ -1,13 +1,10 @@
 import React, { useEffect, useState } from "react";
+import useUsers from "../../hooks/useUsers";
 import SingleCard from "../SingleCard/SingleCard";
 import "./Reviews.css";
 const Reviews = () => {
-  const [users, setUsers] = useState([]);
-  useEffect(() => {
-    fetch("users.json")
-      .then((res) => res.json())
-      .then((data) => setUsers(data));
-  }, [users]);
+  const [users] = useUsers([]);
+
   return (
     <div>
       <h2 className="my-5">What Our Customer Says</h2>
